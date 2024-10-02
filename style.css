@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+DE+Grund:wght@100..400&display=swap');
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(244, 187, 123);
+    font-family: "Dancing Script", cursive;
+}
+.navbar-brand img{
+    height: 50px;
+    width: 50px;
+}
+form button{
+    background-color: currentColor;
+    border: 1px solid rgb(255, 137, 3) !important;
+}
+.navbar{
+    background-color: rgb(244, 187, 123) !important;
+}
+#navbarSupportedContent ul li a{
+    font-size: 25px;
+    font-weight: bold;
+}
+#navbarSupportedContent ul li a:hover{
+    border-bottom: 3px dotted rgb(255, 137, 3);
+}
+#home button a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+#home button a{
+    background-color: rgb(255, 137, 3);
+    border: none;
+    border-radius: 10px;
+    padding: 3px 10px 3px 10px;
+}
+#home .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    max-height: 100vh;
+    width: 100%;
+}
+#home .container h1{
+    font-weight: 1000;
+}
+.card{
+    text-align: center;
+    font-weight: bold;
+}
+#menu{
+    max-height: 250vh;
+    width: 100%;
+}
+#menu img{
+    height: 290px;
+    
+}
+#menu .row{
+    margin-top: 50px;
+}
+#menu span{
+    color: hotpink;
+}
+#about{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about #one h1,h2,p,button{
+    margin-top: 30px;
+    font-weight: bold;
+}
+#about #one h2{
+    color: rgb(255, 137, 3);
+}
