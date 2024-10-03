@@ -81,3 +81,23 @@ section{
 #about #one h2{
     color: rgb(255, 137, 3);
 }
+/* #order p i{
+    /* color: rgb(255, 137, 3); */
+    /* border: 1px solid rgb(238, 134, 15);
+    background-color: white;
+    size: 100px;
+} */ 
+ #order input,textarea{
+    padding: 10px 100px 10px 10px;
+    margin: 20px 0;
+    outline: 1px solid rgb(255, 137, 3);
+    border: none;
+    background-color: rgb(255, 137, 3);
+    color: #fff;
+ }
+ #order{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
